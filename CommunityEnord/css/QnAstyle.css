@@ -110,14 +110,20 @@ main{
   border-right:0.5px solid #6b6b6cb4;
 
 }
-.publicLink > a{
+.plink{
   display: block;
-  width: 180px;
+  width: 185px;
   height: 40px;
   padding: 10px;
   text-decoration: none;
 
 }
+.plink1{
+  
+  width: 230px;
+  
+}
+
 
 .pl{
   margin-left: 35px;
@@ -128,6 +134,20 @@ main{
   font-weight: 600;
 }
 
+.plink1:hover{
+  border-right:3px solid #d67733;
+}
+
+.box{
+  width: 250px;
+  height: 400px;
+  background-color: #e7d12cba;
+  margin-top: 100px;
+  margin-left: 25px;
+  border-radius: 10px;
+  padding: 20px;
+
+}
 
 /* side bar end */
 
@@ -194,7 +214,8 @@ main{
   padding: 5px;
   border:0.5px solid #232629;
   border-radius: 2px;
-  background-color: aqua;
+  background-color: rgb(74, 173, 234);
+  color: white;
   width: 80px;
 }
 
@@ -214,13 +235,27 @@ main{
 
 
 /* middle bar ends */
+
+/* right bar starts */
 .rightbr{
   width: 500px;
   background-color: rgb(255, 255, 255);
   height:810px;
-  /* border-right:0.5px solid #6b6b6caf; */
+  
 }
 
+.rightBox1{
+  width: 360px;
+  background-color: rgba(248, 230, 96, 0.797);
+  height: 600px;
+  margin-left: 30px;
+  margin-top: 50px;
+  border-radius: 10px;
+  padding: 20px;
+  font-size: 18px;
+}
+
+/* right bar ends */
 
 /* footer start */
 footer{
