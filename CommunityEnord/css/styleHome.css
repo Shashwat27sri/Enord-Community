@@ -4,6 +4,7 @@
   box-sizing: border-box;
   margin: 0%;
   font-family: 'Roboto Slab', serif;
+  
 }
 
 
@@ -12,7 +13,7 @@ header{
   /* position: -webkit-sticky; */
   position:static;
   backdrop-filter: blur(10px);
-  background-color: rgb(238, 238, 239);
+  background-color: rgb(255, 255, 255);
 }
 .navbar{
   display: flex;
@@ -28,7 +29,7 @@ header{
 }
 .links{
   display: flex;
-  
+  margin-bottom: 7px;
 }
 .link1{
   margin: 5px;
@@ -38,7 +39,7 @@ header{
   font-size:medium;
 }
 .search{
-  margin-left: 180px;
+  margin-left: 120px;
 }
 .searCh{
   width: 700px;
@@ -48,9 +49,10 @@ header{
   border:1px solid black;
   font-family: 'Roboto Slab', serif;
   font-size: medium;
+  box-shadow: inset 0 0 5px #3a3a3a9f;
 }
 .butSub{
-  padding: 10px;
+  padding: 11px;
   border-radius: 5px;
   border:1px solid black;font-family: 'Roboto';
   font-size: medium;
@@ -58,10 +60,10 @@ header{
   font-weight: 400;
 }
 .butSub:hover{
-  background-color: rgb(151, 247, 54);
+  background-color: rgb(31, 92, 39);
 }
 .logInBtn{
-  margin-left: 10px;
+  margin-left: 40px;
   padding: 8px;
   border-radius: 5px;
   border:1px solid black;font-family:'Roboto';
@@ -97,7 +99,7 @@ header{
   padding-top: 50px;
 }
 .waves{
-  margin-top: 425px;
+  margin-top: 250px;
   border-radius: 0px 0px 20px 20px;
 }
 .smallbox{
@@ -199,56 +201,12 @@ header{
 
 /* hero next done */
 
-.box{
-  width: 70px;
-  height: 70px;
-  background-color: rgba(255, 255, 0, 0.888);
-  border-radius: 10px 10px 0px 10px;
-  position: relative;
-  top: 10px ;left: 1280px;
-  z-index: 1;
-}
-.fogbox{
-  width: 70px;
-  height: 70px;
-  background-color: rgba(255, 255, 0, 0.532);
-  border-radius: 0px 10px 10px 10px;
-  position: relative;
-  top: 10px ;left: 1350px;
-  z-index: 1;
-}
+
 
 
 
 /* carosel start */
 
-
-.carousel {
-  background: #ffffff;
-  height: 400px;
-  margin-bottom: 40px;
-  margin-left: 120px;
-  margin-right: 120px;
-  position: relative;
-  top: -50px;
-}
-
-.carousel-cell-image {
-  display: block;
-  height: 400px;
-  min-width: 200px;
-  opacity: 0;
-  -webkit-transition: opacity 0.4s;
-  transition: opacity 0.4s;
-}
-
-/* fade in lazy loaded image */
-.carousel-cell-image.flickity-lazyloaded,
-.carousel-cell-image.flickity-lazyerror {
-  opacity: 1;
-}
-
-/* carosel done */
 
 
 /* marquee */
@@ -262,13 +220,13 @@ marquee{
   
   margin-left: 10vh;
   margin-right: 10vh;
-  background-color: #23262931;
+  background-color: #23262915;
   border-radius: 120px;
   border: none;
 }
 
 .imgContain{
-  height: 200px;
+  height: 100px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -400,13 +358,40 @@ footer{
   color: #c4d1df;
   
 }
+
+.icons{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+.contactIcons{
+  padding-right: 6px;
+}
+.instacontactIcons{
+  clip-path: circle(45.0% at 50% 50%);
+  width: 70px;
+}
+.facecontactIcons{
+  width: 60px;
+}
+.gitcontactIcons{
+  width: 60px;
+}
+.linkedcontactIcons{
+  width: 60px;
+}
+.twittercontactIcons{
+  width: 60px;
+}
+
 .footContact {
   color: #8e98a3;
   text-decoration: none;
 
 }
 .foot{
-  margin: 25px;
+  margin: 40px;
 
 }
 .navfootlinks{
